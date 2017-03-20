@@ -2,6 +2,7 @@
  * File:   Item.h
  * Author: jhayes
  *
+ * Item class declaration. An object with ident, length, quantity, and weight 
  */
 
 #ifndef ITEM_H

@@ -12,6 +12,3 @@ int main(int argc, char** argv) {
     order.getOrder();
     order.printPlan();
 }
-
-//TODO free memory
-//TODO unit testing
