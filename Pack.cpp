@@ -74,10 +74,12 @@ void Pack::incrementMetrics(int add_count, double add_weight) {
 
 void Pack::distributeItems(list<Item*>& fill_items, Item* item, int fit, int remain) {
     // Fill available space in current pack
-    this->items.push_back(new Item(*item));
-    this->items.back()->setQuantity(fit);
-    this->incrementMetrics(fit, fit * item->getWeight());
-
+    if (fit > 0) {
+        this->items.push_back(new Item(*item));
+        this->items.back()->setQuantity(fit);
+        this->incrementMetrics(fit, fit * item->getWeight());
+    }
+        
     // Add remaining items back to fill order
     item->setQuantity(remain);
     fill_items.push_front(item);
