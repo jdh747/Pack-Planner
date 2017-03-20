@@ -2,7 +2,6 @@
  * File:   main.cpp
  * Author: jhayes
  *
- * Created on 18 March 2017, 8:47 PM
  */
 
 #include <cstdlib>

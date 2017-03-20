@@ -2,7 +2,6 @@
  * File:   Pack.cpp
  * Author: jhayes
  * 
- * Created on 18 March 2017, 8:27 AM
  */
 
 #include "Pack.h"

@@ -2,7 +2,6 @@
  * File:   Item.cpp
  * Author: jhayes
  * 
- * Created on 18 March 2017, 8:20 AM
  */
 
 #include "Item.h"

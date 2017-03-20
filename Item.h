@@ -2,7 +2,6 @@
  * File:   Item.h
  * Author: jhayes
  *
- * Created on 18 March 2017, 8:20 AM
  */
 
 #ifndef ITEM_H
